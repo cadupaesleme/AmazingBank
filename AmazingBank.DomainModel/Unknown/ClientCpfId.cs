@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AmazingBank.DomainModel.Entities
+namespace AmazingBank.DomainModel.Unknown
 {
-    public abstract class Currency
+    public struct ClientCpfId
     {
+
     }
 }

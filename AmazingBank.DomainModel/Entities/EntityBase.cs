@@ -4,8 +4,8 @@ using System.Text;
 
 namespace AmazingBank.DomainModel.Entities
 {
-    public class Client<EntityId> : EntityBase<EntityId>
+    public abstract class EntityBase<EntityId>
     {
-        
+        public EntityId Id { get; set; }
     }
 }
