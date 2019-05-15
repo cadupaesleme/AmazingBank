@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AmazingBank.DomainModel.Interfaces.Repositories
 {
-    public interface IRepositoryClient : IRepository<Client,Guid>
+    public interface IClientRepository : IRepository<Client,Guid>
     {
     }
 }

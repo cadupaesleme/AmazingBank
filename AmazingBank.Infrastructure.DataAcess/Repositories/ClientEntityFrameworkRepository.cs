@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AmazingBank.Infrastructure.DataAcess.Repositories
 {
-    public class ClientEntityFrameworkRepository : IRepositoryClient
+    public class ClientEntityFrameworkRepository : IClientRepository
     {
         public void Create(Client entity)
         {

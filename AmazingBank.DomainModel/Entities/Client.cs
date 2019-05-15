@@ -6,6 +6,6 @@ namespace AmazingBank.DomainModel.Entities
 {
     public class Client : EntityBase<Guid>
     {
-        
+        public string Name { get; set; }
     }
 }

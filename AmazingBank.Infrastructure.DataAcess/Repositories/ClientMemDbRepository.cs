@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AmazingBank.Infrastructure.DataAcess.Repositories
 {
-    public class ClientMemDbRepository : IRepositoryClient
+    public class ClientMemDbRepository : IClientRepository
     {
         private static List<Client> _set = new List<Client>();
 
