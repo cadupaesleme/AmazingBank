@@ -13,17 +13,17 @@ namespace AmazingBank.Infrastructure.DataAcess.Repositories
             throw new NotImplementedException();
         }
 
-        public void Delete(Client entity)
+        public void Delete(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Client> Read()
+        public Client Read(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public Client ReadAll(Guid id)
+        public IEnumerable<Client> ReadAll()
         {
             throw new NotImplementedException();
         }

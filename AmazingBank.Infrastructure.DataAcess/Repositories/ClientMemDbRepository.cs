@@ -12,27 +12,28 @@ namespace AmazingBank.Infrastructure.DataAcess.Repositories
 
         public void Create(Client entity)
         {
-            throw new NotImplementedException();
+            _set.Add(entity);
         }
 
-        public void Delete(Client entity)
+        public void Delete(Guid id)
         {
-            throw new NotImplementedException();
+            _set.Remove(Read(id));
         }
 
-        public IEnumerable<Client> Read()
+        public Client Read(Guid id)
         {
-            throw new NotImplementedException();
+            return _set.Find(c => c.Id == id);
         }
 
-        public Client ReadAll(Guid id)
+        public IEnumerable<Client> ReadAll()
         {
-            throw new NotImplementedException();
+            return _set;
         }
 
         public void Update(Client entity)
         {
-            throw new NotImplementedException();
+            this.Delete(entity.Id);
+            this.Create(entity);
         }
     }
 }
