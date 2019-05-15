@@ -5,8 +5,8 @@ using System.Text;
 
 namespace AmazingBank.DomainModel.Entities
 {
-    public class Account<EntityId> : EntityBase<EntityId>
+    public class Account : EntityBase<Guid>
     {
-        public Client<EntityId> Client { get; set; }
+        public Client Client { get; set; }
     }
 }

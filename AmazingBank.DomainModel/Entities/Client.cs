@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AmazingBank.DomainModel.Entities
 {
-    public class Client<EntityId> : EntityBase<EntityId>
+    public class Client : EntityBase<Guid>
     {
         
     }

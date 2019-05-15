@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{5168108F-D58F-43BB-B1DD-0496A7135EE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingBank.DomainModel", "AmazingBank.DomainModel\AmazingBank.DomainModel.csproj", "{628FC5C0-14BF-4C1D-B0CB-BDD1B81FA602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazingBank.DomainModel", "AmazingBank.DomainModel\AmazingBank.DomainModel.csproj", "{628FC5C0-14BF-4C1D-B0CB-BDD1B81FA602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingBank.Infrastructure.DataAcess", "AmazingBank.Infrastructure.DataAcess\AmazingBank.Infrastructure.DataAcess.csproj", "{CB782381-D244-46B7-AA0A-B1C9BFB21C4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{628FC5C0-14BF-4C1D-B0CB-BDD1B81FA602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{628FC5C0-14BF-4C1D-B0CB-BDD1B81FA602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{628FC5C0-14BF-4C1D-B0CB-BDD1B81FA602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB782381-D244-46B7-AA0A-B1C9BFB21C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB782381-D244-46B7-AA0A-B1C9BFB21C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB782381-D244-46B7-AA0A-B1C9BFB21C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB782381-D244-46B7-AA0A-B1C9BFB21C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{628FC5C0-14BF-4C1D-B0CB-BDD1B81FA602} = {4CA33FB2-AC0E-4EB7-BF50-8AB23DEB0658}
+		{CB782381-D244-46B7-AA0A-B1C9BFB21C4A} = {5168108F-D58F-43BB-B1DD-0496A7135EE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0070F67C-3D6A-4D57-AF6F-25701447D620}
